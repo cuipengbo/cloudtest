@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+server:
+  port: 8010
+  
+spring:
+  application:
+    name: spring-cloud-product
+  cloud: 
+    config: 
+      discovery: 
+        enabled: true
+        serviceId: spring-cloud-config
+      #profile: dev
+      #label: hxd

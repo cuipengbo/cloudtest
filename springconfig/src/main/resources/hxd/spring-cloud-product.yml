@@ -1,0 +1,18 @@
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8000/eureka/
+#      
+##server:
+##  port: 8888
+#  
+#spring:
+#  application:
+#    name: spring-cloud-config
+#    
+#management: 
+#  security:
+#    enabled: false
+    
+message:
+  yunxin: 网易云音乐

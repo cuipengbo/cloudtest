@@ -1,0 +1,22 @@
+spring: 
+  application: 
+    name: spring-cloud-config
+  profiles: 
+    active: native
+  cloud: 
+    config: 
+      server: 
+        native:
+          searchLocations: >
+            classpath:/hxd
+
+server: 
+  port: 8001
+  
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:8000/eureka/
+
+      #config自己的配置文件
+      #/hxd: 给另外的服务提供的配置文件
