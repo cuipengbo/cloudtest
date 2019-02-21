@@ -14,4 +14,4 @@ spring:
         enabled: true
         serviceId: spring-cloud-config
       #profile: dev
-      #label: hxd
+      #label: hxd  ## 指在config配置文件classpath基础上有添加什么包

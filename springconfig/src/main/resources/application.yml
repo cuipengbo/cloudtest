@@ -2,12 +2,12 @@ spring:
   application: 
     name: spring-cloud-config
   profiles: 
-    active: native
+    active: native # native 指的是本地配置
   cloud: 
     config: 
       server: 
         native:
-          searchLocations: >
+          searchLocations: >  #指查找本地什么路径下配置 发布
             classpath:/hxd
 
 server: 
