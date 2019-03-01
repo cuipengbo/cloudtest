@@ -1,7 +1,4 @@
-#spring: 
-#  profiles: 
-#    active: prod
-    
+
 server:
   port: 8000
       
@@ -23,3 +20,6 @@ eureka:
 spring:
   application:
     name: spring-cloud-eureka  
+#spring:
+#  profiles:
+#    active: prod

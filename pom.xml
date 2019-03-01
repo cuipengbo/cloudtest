@@ -37,9 +37,6 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server -->
-
-
-
     </dependencies>
 
     <dependencyManagement>

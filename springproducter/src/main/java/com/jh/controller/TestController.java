@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/test")
 public class TestController {
 
-	@Value("${message.yunxin}")
+	@Value("${message.yunxin1}")
     private String message;
 
 	@Autowired
