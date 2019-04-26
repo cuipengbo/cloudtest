@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: api-gateway
+    
+server:
+  port: 8082
+  
+# 添加路由到服务
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: spring-cloud-product
+    api-b:
+      path: /api-b/**
+      serviceId: spring-cloud-consumer
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+  cloud: 
+    config: 
+      discovery: 
+        enabled: true
+        serviceId: spring-cloud-config
+      #profile: dev
+      #label: hxd  ## 指在config配置文件classpath基础上有添加什么包
