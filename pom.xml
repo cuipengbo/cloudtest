@@ -13,6 +13,7 @@
         <module>springproducter</module>
         <module>springconsumer</module>
         <module>springcommon</module>
+        <module>springgateway</module>
     </modules>
     <packaging>pom</packaging>
 
